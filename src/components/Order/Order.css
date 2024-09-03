@@ -1,0 +1,210 @@
+.order-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 1024px;
+}
+.order-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.73px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: center;
+  color: #243573;
+  margin: 24px auto 12px;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: center;
+  color: #243573;
+  margin-top: 12px;
+}
+.order-text h4 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: center;
+  color: #243573;
+  margin: 12px;
+}
+.order-contacts {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  justify-content: center;
+}
+.order-date {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: center;
+  color: #737373;
+}
+.contact-info,
+.shipment-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  min-height: 114px;
+  width: 465px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+  padding-bottom: 8px;
+}
+.contact-info p,
+.shipment-info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  color: #000;
+  margin: 0px 0px 0px 16px;
+}
+.contact-info-header,
+.shipment-info-header,
+.order-summary-header {
+  display: flex;
+  margin: 16px;
+  gap: 8px;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  color: #243573;
+}
+.contact-info-header h4,
+.shipment-info-header h4,
+.order-summary-header h4 {
+  margin: 0;
+}
+.contact-info-header img,
+.shipment-info-header img,
+.order-summary-header img {
+  width: 16px;
+  height: 16px;
+}
+.order-summary {
+  width: 960px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.order-product-item,
+.order-product-item:last-child {
+  background-color: #fff;
+  display: flex;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.order-product-item img {
+  width: 90px;
+  height: 90px;
+  margin: 16px 8px 16px 18px;
+}
+.product-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.order-product-name {
+  max-width: 700px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  color: #000;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+}
+.order-product-price {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  color: #000;
+}
+.summary-section {
+  margin: 16px auto 16px 25px;
+}
+.summary-txt {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  color: #000;
+  margin: 8px;
+}
+.total-sum {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  color: #000;
+  margin: 8px;
+}
+
+.order-page-button {
+  width: 150px;
+  height: 36px;
+  background-color: #00ae1c;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  line-height: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
+}
+.order-page-button:hover {
+  border: 1px solid #5ce171;
+  box-shadow: 0px 2px 2px 0px #5ce17140;
+}
+
+.value {
+  display: flex;
+  flex-direction: column;
+  margin-left: 221px;
+  margin-top: -22px;
+}
+.product-divider {
+  width: 926px;
+  border: 1px solid #c8c8c8;
+  margin: 0px auto;
+}

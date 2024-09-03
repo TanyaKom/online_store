@@ -1,0 +1,114 @@
+.shipment-info-page {
+  width: auto;
+  height: 100%;
+  margin-left: 240px;
+}
+h2 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38.73px;
+  letter-spacing: -0.26px;
+  color: #243573;
+}
+.address-field {
+  width: 960px;
+  height: auto;
+  background-color: #fff;
+  padding: 32px 32px 0px 32px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+  display: grid;
+  grid-template-columns: 300px 44px 300px;
+  gap: 0px;
+  box-sizing: border-box;
+}
+.city-address-field {
+  display: flex;
+  flex-direction: column;
+}
+.city-address-field label,
+.main-fields label {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: -0.20000000298023224px;
+  color: #243573;
+}
+.fields {
+  display: flex;
+  flex-direction: column;
+}
+.main-fields {
+  display: flex;
+  gap: 44px;
+}
+.main-fields select {
+  width: 250px;
+}
+select {
+  border: none;
+  border-bottom: 1px solid #737373;
+  outline: none;
+  padding: 9px 0px;
+  color: #243573;
+}
+.shipment-info-page button {
+  width: 150px;
+  height: 36px;
+  background-color: #00ae1c;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  line-height: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+.shipment-info-page button:disabled {
+  background: #187727;
+  box-shadow: 0px 1px 2px 0px #1018280d;
+}
+button:hover {
+  border: 1px solid #5ce171;
+  box-shadow: 0px 2px 2px 0px #5ce17140;
+}
+.styles {
+  position: relative;
+  margin-bottom: 32px;
+}
+.styles input {
+  border: none;
+  border-bottom: 1px solid #737373;
+  outline: none;
+  padding: 9px 0px;
+  width: 300px;
+  box-sizing: border-box;
+}
+.zip-info input {
+  border: none;
+  border-bottom: 1px solid #737373;
+  outline: none;
+  padding: 9px 0px;
+  width: 250px;
+  box-sizing: border-box;
+}
+input::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.30000001192092896px;
+  color: #243573;
+}
+.error {
+  color: #ff5620;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.2px;
+  position: absolute;
+  bottom: -16px;
+}
